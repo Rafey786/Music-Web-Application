@@ -1,0 +1,213 @@
+body{
+    background-color: rgb(2, 2, 27);
+}
+/* CSS FOR CONTACT PAGE */
+.back_img{
+  background-image: url("1.jpg");
+  width: 100%;
+  height: 550px;
+  background-size: cover;
+  position: absolute;
+}
+.text{
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  margin-top: 30px;
+}
+img{
+    margin-right: 100px;
+}
+.responsive{
+    width: 50%;
+    height: auto;
+}
+/* for image to make responsive */
+@media only screen and (max-width: 480px) {
+    img {
+      width: 100%;
+    }
+  }
+#flow{
+    text-align: left;
+    margin-top: 150px;
+    margin-left: 140px;
+}
+#txtColor{
+    color: #b71540;
+    font-size: 40px;
+}
+#txtSize{
+    font-size: 40px;
+}
+#space1{
+    margin-top: 30px;
+}
+#space2{
+    margin-top: 5rem;
+}
+#space3{
+  margin-top: 5rem;
+}
+.footer{
+    background-color: #da5252;
+    height: 35px;
+    clear: both;
+    color: white;
+    text-align: center;
+    font-size: large;
+}
+#image1{
+    background-image: url('l.jpg');
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin-top: 0%;
+}
+
+ /* CSS FOR SONGS SECTION */
+
+main{
+    width: 90%; 
+    height: 550px;
+    margin: auto; 
+    border: 1px solid black;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+#div{
+    width: 30%; 
+    height: 160px;
+    border: 1px solid rgb(80, 50, 50);
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 10px; 
+    cursor: pointer;
+    margin: 5px;
+}
+.c1{
+     background-image: url('images/1.jpg');
+     background-repeat: no-repeat;
+     background-size: 100% 100%;
+}   
+.c2{
+   background-image: url('images/2.jpg');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.c3{
+   background-image: url('images/3.jpg');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.c4{
+   background-image: url('images/4.jpg');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.c5{
+   background-image: url('images/5.jpg');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.c6{
+   background-image: url('images/6.jpg');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.c7{
+   background-image: url('images/7.jpg');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.c8{
+   background-image: url('images/8.jpg');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.c9{
+   background-image: url('images/9.jpg');
+   background-size: 100% 100%;
+   background-repeat: no-repeat;
+}
+.c10{
+    background-image: url('images/10.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}   
+.c11{
+  background-image: url('images/11.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.c12{
+  background-image: url('images/12.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.c13{
+  background-image: url('images/13.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.c14{
+  background-image: url('images/14.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.c15{
+  background-image: url('images/15.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+/* CSS FOR SINGIN PAGE */
+
+input{
+  margin: 20px auto;
+  display: block;
+  width: 40%;
+  padding: 8px;
+  border: 1px solid #34495e;
+  background-color: rgb(2, 2, 27);
+  color: white;
+}
+.button{
+  padding: 10px 15px;
+  background: #da5252;
+  font-size: 15px;
+  border-radius: 5px;
+  box-shadow: 6px 6px 29px -4px  rgba(0,0,0,0.75);
+}
+.button:hover{
+  background-color: rgb(2, 2, 27);
+  color: #da5252;
+}
+.close{
+  position: absolute;
+  top: -15px;
+  right: -15px;
+  background: #fff;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 29px -4px  rgba(0,0,0,0.75);
+  cursor: pointer;
+}
+.user{
+  height: 100px;
+  width: 200px;
+  margin-left: 20%;
+}
+.button{
+  background: #da5252;
+  cursor: pointer;
+  padding: 10px 15px;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+#button1{
+ margin-left: 40%;
+}

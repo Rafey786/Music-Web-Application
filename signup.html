@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignIn_SignUp</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+    <div class="container">
+        <img src="close.png" alt="close" class="close" style="width: 15px; height: 15px; float: right;">
+        <form class="form1" action="home.html">
+            <div>
+                <button id="btn1" type="button" class="toggle">Sing In</button>
+                <button id="btn2" type="button" class="toggle" style="opacity: 0.5;">Sing Up</button>
+            </div>
+            <div>
+                <input type="text" placeholder="Username" name="username" required>
+            </div>
+            <div>
+                <input type="password" placeholder="Password" name="password" required >
+            </div>
+            <div>
+                <input type="submit" value="Sign In" id="btn" />
+            </div>
+        </form>
+        <form class="form2" action="register_success.html" method="POST">
+            <div>
+                <input type="text" placeholder="Username" name="username" required>
+            </div>
+            <div>
+                <input type="text" placeholder="Email" name="email" required>
+            </div>
+            <div>
+                <input type="password" placeholder="Password" name="password" required >
+            </div>
+            <div>
+                <input type="submit" value="Sign Up" id="btn" />
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript">
+
+        document.getElementById("btn1").addEventListener("click",function(){
+        document.getElementById("btn1").style.display = "none";
+        document.getElementById("btn2").style.display = "none";
+    });
+        document.getElementById("btn2").addEventListener("click",function(){
+        document.querySelector(".form2").style.display = "block";
+        document.querySelector(".form1").style.display = "none";
+    });
+        document.querySelector(".close").addEventListener("click",function(){
+        document.querySelector(".container").style.display = "none";
+    });
+    </script>
+</body>
+</html>
